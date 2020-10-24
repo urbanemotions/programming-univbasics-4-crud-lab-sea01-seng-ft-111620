@@ -8,7 +8,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   #array << "arrays!"
-  array << element
+  #array << element
+  array.push(element)
   #p array
 end
 
